@@ -7,9 +7,10 @@ function Layout() {
   return (
     <>
         <Header/>
-        <Outlet/>  // Header and Footer will same but Outlet    differs
+        <Outlet/>  
         <Footer/>
     </>
+    // Header and Footer will same but Outlet    differs
   )
 }
 
